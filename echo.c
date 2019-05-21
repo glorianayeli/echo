@@ -33,6 +33,7 @@ void main()
       if(FlagSerial==1)
       {
          printf("%c,%u,%x  ",caracter,caracter,caracter);
+         printf("%c,%u,%x  ",caracter+1,caracter+1,caracter+1);
          FlagSerial=0;
       }
    }
