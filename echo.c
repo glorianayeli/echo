@@ -32,7 +32,7 @@ void main()
    {
       if(FlagSerial==1)
       {
-         putc(caracter);
+         printf("%c,%u,%x  ",caracter,caracter,caracter);
          FlagSerial=0;
       }
    }
